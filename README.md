@@ -140,3 +140,7 @@ body[lang="fi"] .support-ukraine__label--en {
 	<div class="support-ukraine__label support-ukraine__label--fi">Tue Ukrainan itsenäisyyttä lahjoittamalla.</div>
 </a>
 ```
+
+## Reporting issues
+
+We are open for any feedback. Use GitHub [issue tracker](https://github.com/evermade/support-ukraine-banner/issues) to report issues.
