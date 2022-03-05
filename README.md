@@ -48,9 +48,15 @@ body {
 	height: 25px;
 	margin-right: 10px;
 }
-.support-ukraine__flag__image {
+.support-ukraine__flag__blue {
 	width: 40px;
-	height: 25px;
+	height: 12.5px;
+	background: #005BBB;
+}
+.support-ukraine__flag__yellow {
+	width: 40px;
+	height: 12.5px;
+	background: #FFD500;
 }
 .support-ukraine__label {
 	color: white;
@@ -59,17 +65,29 @@ body {
 }
 </style>
 <a class="support-ukraine" href="https://help.unicef.org/ukraine-emergency" target="_blank" rel="nofollow noopener" title="Donate to support Ukraine's independence.">
-	<div class="support-ukraine__flag">
-		<svg class="support-ukraine__flag__image" xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-			<rect width="1200" height="800" fill="#005BBB"/>
-			<rect width="1200" height="400" y="400" fill="#FFD500"/>
-		</svg>
+	<div class="support-ukraine__flag" role="img" aria-label="Flag of Ukraine">
+		<div class="support-ukraine__flag__blue"></div>
+		<div class="support-ukraine__flag__yellow"></div>
 	</div>
 	<div class="support-ukraine__label">
 		Donate to support Ukraine's independence.
 	</div>
 </a>
 ```
+
+## Installation via Google Tag Manager
+
+You can also easily install the banner with GTM.
+
+1. Log into Tag Manager
+1. Go to Tags view
+1. Click New to add new tag
+1. Set tag type to Custom HTML
+1. Paste the snippet above to HTML field
+1. Add All Pages trigger
+1. Publish your changes
+
+![Add snippet as Custom HTML](tag-manager.png "Add snippet as Custom HTML")
 
 ## Multilingual version
 
@@ -104,9 +122,15 @@ body {
 	height: 25px;
 	margin-right: 10px;
 }
-.support-ukraine__flag__image {
+.support-ukraine__flag__blue {
 	width: 40px;
-	height: 25px;
+	height: 12.5px;
+	background: #005BBB;
+}
+.support-ukraine__flag__yellow {
+	width: 40px;
+	height: 12.5px;
+	background: #FFD500;
 }
 .support-ukraine__label {
 	color: white;
@@ -135,11 +159,9 @@ body[lang="fi"] .support-ukraine__label--en {
 }
 </style>
 <a class="support-ukraine" href="https://help.unicef.org/ukraine-emergency" target="_blank" rel="nofollow noopener" title="Donate to support Ukraine's independence.">
-	<div class="support-ukraine__flag">
-		<svg class="support-ukraine__flag__image" xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-			<rect width="1200" height="800" fill="#005BBB"/>
-			<rect width="1200" height="400" y="400" fill="#FFD500"/>
-		</svg>
+	<div class="support-ukraine__flag" role="img" aria-label="Flag of Ukraine">
+		<div class="support-ukraine__flag__blue"></div>
+		<div class="support-ukraine__flag__yellow"></div>
 	</div>
 	<div class="support-ukraine__label support-ukraine__label--en">Donate to support Ukraine's independence.</div>
 	<div class="support-ukraine__label support-ukraine__label--fi">Tue Ukrainan itsenäisyyttä lahjoittamalla.</div>
