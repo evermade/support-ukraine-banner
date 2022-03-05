@@ -2,6 +2,11 @@
 
 Use this snippet to show your support for Ukrainians on the top of your website. Installing it takes minutes.
 
+1. [About](#about)
+1. [Installation](#installation)
+1. [Multilingual version](#multilingual-version)
+1. [Reporting issues](#reporting-issues)
+
 ## About
 
 This code adds a small black banner on top of your website with Ukrainian flag and support message. It links to Unicef's donation site but you can change the link to point to a support channel of your choice.
